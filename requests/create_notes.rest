@@ -1,0 +1,18 @@
+GET http://localhost:3001/api/notes/
+content-type: application/json
+
+###
+POST  http://localhost:3001/api/notes/
+content-type: application/json
+
+{
+    "content":"Esto es otra nota con REST que no es importante"
+}
+
+###
+POST  http://localhost:3001/api/notes/
+content-type: application/json
+
+{
+
+}
